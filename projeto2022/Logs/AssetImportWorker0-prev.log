@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/faculdade/2021_22/aav/projeto2022
+D:/faculdade/2021_22/aav/github/projeto/projeto2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50160
-Successfully changed project path to: D:/faculdade/2021_22/aav/projeto2022
-D:/faculdade/2021_22/aav/projeto2022
+50612
+Successfully changed project path to: D:/faculdade/2021_22/aav/github/projeto/projeto2022
+D:/faculdade/2021_22/aav/github/projeto/projeto2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ D:/faculdade/2021_22/aav/projeto2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 56.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/faculdade/2021_22/aav/projeto2022/Assets
+[Subsystems] Discovering subsystems at path D:/faculdade/2021_22/aav/github/projeto/projeto2022/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,90 +63,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003602 seconds.
+Registered in 0.002947 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.431 seconds
+- Completed reload, in  0.427 seconds
 Domain Reload Profiling:
-	ReloadAssembly (432ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (427ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (303ms)
-			LoadAssemblies (51ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (305ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (62ms)
+			SetupTypeCache (61ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (191ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (58ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002072 seconds.
+Registered in 0.002255 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\github\projeto\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\github\projeto\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.650 seconds
+- Completed reload, in  0.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (651ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (148ms)
+			SetupTypeCache (234ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (276ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (152ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (112.2 KB). Loaded Objects now: 3687.
-Memory consumption went from 113.1 MB to 113.0 MB.
-Total: 2.380500 ms (FindLiveObjects: 0.206100 ms CreateObjectMapping: 0.086600 ms MarkObjects: 2.012400 ms  DeleteObjects: 0.074600 ms)
+Unloading 23 unused Assets / (113.2 KB). Loaded Objects now: 3704.
+Memory consumption went from 125.4 MB to 125.3 MB.
+Total: 3.852200 ms (FindLiveObjects: 0.288100 ms CreateObjectMapping: 0.088000 ms MarkObjects: 3.370600 ms  DeleteObjects: 0.104800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,43 +160,103 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 27522.390564 seconds.
-  path: Assets/forest
-  artifactKey: Guid(0e9d8181ad136864bb21dad4f0a8661a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/forest using Guid(0e9d8181ad136864bb21dad4f0a8661a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991156f44681a854c77f4cabcb4b036d') in 0.004824 seconds 
+  Time since last request: 37192.310301 seconds.
+  path: Assets/characters/hero
+  artifactKey: Guid(40e7ce0baff585b4ab311f2fdd27426f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero using Guid(40e7ce0baff585b4ab311f2fdd27426f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a06dbe2c8cb982509fab11f13f013c1') in 0.005436 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.124913 seconds.
-  path: Assets/forest/textures
-  artifactKey: Guid(a15120624f34fce4c9d00e550aee17cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/forest/textures using Guid(a15120624f34fce4c9d00e550aee17cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f794bc7bbddec7958c4d2048c5c1126') in 0.000833 seconds 
+  Time since last request: 47.123815 seconds.
+  path: Assets/Prefabs/hero.prefab
+  artifactKey: Guid(fee03b55f11f243bbb5570873693107b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hero.prefab using Guid(fee03b55f11f243bbb5570873693107b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdf55e144cc35bc4fd70b740ba03c10') in 0.340621 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.311117 seconds.
-  path: Assets/forest/Stylized Grass Texture
-  artifactKey: Guid(085691846e0cfa145b81d209d1ab89df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/forest/Stylized Grass Texture using Guid(085691846e0cfa145b81d209d1ab89df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca791e3664a985381a28443d00b1a2f4') in 0.000940 seconds 
+  Time since last request: 28.526694 seconds.
+  path: Assets/characters/hero/lowpoly-staff
+  artifactKey: Guid(464d1c89b12705d49b644f875e47343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/lowpoly-staff using Guid(464d1c89b12705d49b644f875e47343b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6709ac06beb0847028a4ee0fee64b55b') in 0.000925 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.823719 seconds.
-  path: Assets/forest/textures/Stylized Grass Texture/Textures
-  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/forest/textures/Stylized Grass Texture/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976602cc1d087e8a9df9f571178cab1c') in 0.000884 seconds 
+  Time since last request: 0.748451 seconds.
+  path: Assets/characters/hero/lowpoly-staff/source
+  artifactKey: Guid(c450052a8d7a5af4cabd53e8dd52ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/lowpoly-staff/source using Guid(c450052a8d7a5af4cabd53e8dd52ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb70c54eb4a4bbab4f7960b673226b9') in 0.000897 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.069512 seconds.
-  path: Assets/forest/textures/Stylized Grass Texture/Textures/Vol_42_1_Ambient_Occlusion.png
-  artifactKey: Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/forest/textures/Stylized Grass Texture/Textures/Vol_42_1_Ambient_Occlusion.png using Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73102048e7a01cd8be0ba50c5f3ab2ec') in 0.079516 seconds 
+  Time since last request: 0.067928 seconds.
+  path: Assets/characters/hero/lowpoly-staff/source/Sketchfab_2017_11_21_14_10_12.blend
+  artifactKey: Guid(0b492f48ce970ee4785246bf9fea1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/lowpoly-staff/source/Sketchfab_2017_11_21_14_10_12.blend using Guid(0b492f48ce970ee4785246bf9fea1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cb4195d9c03efaaa6223e6cfa23735') in 0.120689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/forest/textures/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png
-  artifactKey: Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/forest/textures/Stylized Grass Texture/Textures/Vol_42_1_Roughness.png using Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca74e336983cc91436b7094f1774ea6') in 0.008573 seconds 
+  Time since last request: 4.296595 seconds.
+  path: Assets/characters/hero/lowpoly-staff/textures
+  artifactKey: Guid(0d9ec54d4c7a30d479ead02c9955c5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/lowpoly-staff/textures using Guid(0d9ec54d4c7a30d479ead02c9955c5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae2efab1e013e0ea0e0021a7deafa93') in 0.000803 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/forest/textures/Stylized Grass Texture/Textures/Vol_42_1_Normal.png
-  artifactKey: Guid(9e91cd5bde426714d9f0ef165f143d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/forest/textures/Stylized Grass Texture/Textures/Vol_42_1_Normal.png using Guid(9e91cd5bde426714d9f0ef165f143d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da92050cab49c352678155489a2d788') in 0.033377 seconds 
+  Time since last request: 0.064972 seconds.
+  path: Assets/characters/hero/lowpoly-staff/textures/Staff_Tex.png
+  artifactKey: Guid(8d932565f702f274b82b7c6c5d3c5925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/lowpoly-staff/textures/Staff_Tex.png using Guid(8d932565f702f274b82b7c6c5d3c5925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed26727c51279d66f67e5fd28d82044') in 0.030927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.019191 seconds.
+  path: Assets/Prefabs/staff.prefab
+  artifactKey: Guid(e89c99ed42082794d9387e49e67ffd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/staff.prefab using Guid(e89c99ed42082794d9387e49e67ffd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c41f3f46ce37b9eceb80147799ee99') in 0.012048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 474.452161 seconds.
+  path: Assets/forest/buildings
+  artifactKey: Guid(d6d9c231bad88a44c928dc0424c9b3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/buildings using Guid(d6d9c231bad88a44c928dc0424c9b3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b4c1dadf1327af99c5c784f426dfe7') in 0.001047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.284390 seconds.
+  path: Assets/forest/objects
+  artifactKey: Guid(fdb06d763cf14a549955756f0922df0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects using Guid(fdb06d763cf14a549955756f0922df0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a722882481c1020402c04641718633') in 0.000936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.068776 seconds.
+  path: Assets/forest/buildings/modular-lowpoly-medieval-environment
+  artifactKey: Guid(4e82e6993344eb04a983585b55515c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/buildings/modular-lowpoly-medieval-environment using Guid(4e82e6993344eb04a983585b55515c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cff57238d9c363175b28ace4df83e4e') in 0.001035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.078975 seconds.
+  path: Assets/forest/buildings/modular-lowpoly-medieval-environment/source
+  artifactKey: Guid(3c728736aac9ab547b9b0d90d6604e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/buildings/modular-lowpoly-medieval-environment/source using Guid(3c728736aac9ab547b9b0d90d6604e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5723f0ea9a39e81c8138145beafde5b') in 0.000813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144824 seconds.
+  path: Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene edited.fbx
+  artifactKey: Guid(3def6af264de359459b24c735d773b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene edited.fbx using Guid(3def6af264de359459b24c735d773b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba40eb2c435dbb5d343553ec440597a') in 0.421269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene.fbx
+  artifactKey: Guid(6f8519ec0d807d54ca42696b86195dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene.fbx using Guid(6f8519ec0d807d54ca42696b86195dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870c67ac9715e628c94d742e940348b6') in 22.302827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.350938 seconds.
+  path: Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene edited.fbx
+  artifactKey: Guid(3def6af264de359459b24c735d773b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene edited.fbx using Guid(3def6af264de359459b24c735d773b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a44e7943ef30b4c088f7fce6a0dd9ce') in 0.273613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.146748 seconds.
+  path: Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene.fbx
+  artifactKey: Guid(6f8519ec0d807d54ca42696b86195dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene.fbx using Guid(6f8519ec0d807d54ca42696b86195dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1049271d03dfa27d6408995a312038b3') in 0.310747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.076592 seconds.
+  path: Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene edited.fbx
+  artifactKey: Guid(3def6af264de359459b24c735d773b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene edited.fbx using Guid(3def6af264de359459b24c735d773b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcba9670f478332aaa43061c8ec50de') in 0.312540 seconds 

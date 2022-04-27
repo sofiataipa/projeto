@@ -1,0 +1,158 @@
+# Wavefront .mtl file  -  created by SpaceDraw
+
+# File created: 20-03-24, 09:55
+
+newmtl roofunderwood-8355712
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka medieval wood.jpg
+map_Kd medieval wood.jpg
+
+newmtl House wall-8355712
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka 655fac1b05fe23c422684f99c0416aaf.jpg
+map_Kd 655fac1b05fe23c422684f99c0416aaf.jpg
+
+newmtl roof-8355712
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka rooftiles3.png
+map_Kd rooftiles3.png
+
+newmtl windowemiisive-8355712
+Ns 0.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 1.0 0.5568 0.0039 
+map_Ka 24925510-Grunge-black-and-white-textures-background-Stock-Photo.jpg
+map_Kd 24925510-Grunge-black-and-white-textures-background-Stock-Photo.jpg
+
+newmtl rocks_floatinfisland
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka rock_painted.jpeg
+map_Kd rock_painted.jpeg
+
+newmtl Groundgrass
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka grass_painted.jpeg
+map_Kd grass_painted.jpeg
+
+newmtl MainWood
+Ns 125.8
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.1529 0.1529 0.1529 
+Ke 0.0 0.0 0.0 
+map_Ka stylized_wood.jpg
+map_Kd stylized_wood.jpg
+
+newmtl standard
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+
+newmtl stone
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka rock_painted.png
+map_Kd rock_painted.png
+
+newmtl window bar
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka 45532916-dark-wood-seamless-texture-or-background.jpg
+map_Kd 45532916-dark-wood-seamless-texture-or-background.jpg
+
+newmtl treestump
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka luis-montes-de-oca-wood-texture.jpg
+map_Kd luis-montes-de-oca-wood-texture.jpg
+
+newmtl Tree_leafsbranches
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka Vol_42_1_Base_Color.png
+map_Kd Vol_42_1_Base_Color.png
+
+newmtl grass
+Ns 20.0
+d 1.0
+Tr 0.0
+illum 2
+Ka 0.50189996 0.50189996 0.50189996 
+Kd 0.50189996 0.50189996 0.50189996 
+Ks 0.0 0.0 0.0 
+Ke 0.0 0.0 0.0 
+map_Ka grass_painted.jpeg
+map_Kd grass_painted.jpeg
+

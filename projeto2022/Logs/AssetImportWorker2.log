@@ -1,0 +1,224 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'pt' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/faculdade/2021_22/aav/github/projeto/projeto2022
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50927
+Successfully changed project path to: D:/faculdade/2021_22/aav/github/projeto/projeto2022
+D:/faculdade/2021_22/aav/github/projeto/projeto2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 60.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/faculdade/2021_22/aav/github/projeto/projeto2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004676 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 59.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.454 seconds
+Domain Reload Profiling:
+	ReloadAssembly (454ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (315ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (66ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002614 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\github\projeto\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\github\projeto\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (697ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (537ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (112.8 KB). Loaded Objects now: 3709.
+Memory consumption went from 126.2 MB to 126.1 MB.
+Total: 4.087000 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.171500 ms MarkObjects: 3.434500 ms  DeleteObjects: 0.116300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43565.562249 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge
+  artifactKey: Guid(5c52bee67ee9d484aa3aa7e2457cc85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge using Guid(5c52bee67ee9d484aa3aa7e2457cc85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b1a715a7857ad8ee11d3f3678d35e3') in 0.005796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.966458 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/source
+  artifactKey: Guid(e89a48c1a8a2efc4d80208641f308940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/source using Guid(e89a48c1a8a2efc4d80208641f308940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73dbd2b9175a66825c6155d7bfee877f') in 0.000764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118681 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/source/TinyCabinFantasy_Textured_Scene.obj
+  artifactKey: Guid(415c38da619fd5844a1fd6852353ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/source/TinyCabinFantasy_Textured_Scene.obj using Guid(415c38da619fd5844a1fd6852353ce44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128094c1686c62678cedfc0d831f0a91') in 0.732050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.582187 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/textures
+  artifactKey: Guid(0ba189942cee7984599ed7bfbc7c6f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/textures using Guid(0ba189942cee7984599ed7bfbc7c6f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11696f9f877ad2cb3cece2026d7910e4') in 0.000778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097862 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/textures/655fac1b05fe23c422684f99c0416aaf.jpeg
+  artifactKey: Guid(2fae0e69120072d49b0d05f74fd75435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/textures/655fac1b05fe23c422684f99c0416aaf.jpeg using Guid(2fae0e69120072d49b0d05f74fd75435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb4000d1f7ad57c20934bc5c136a290') in 0.034571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/textures/stylized_wood.jpeg
+  artifactKey: Guid(f96d979b4e29cf046bd0d8503c8965b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/textures/stylized_wood.jpeg using Guid(f96d979b4e29cf046bd0d8503c8965b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ebb9d37c28f9f08ff8907adf2a01a8') in 0.006405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/textures/grass_painted.jpeg
+  artifactKey: Guid(f94770f08d07fa846a4a36ae6c598705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/textures/grass_painted.jpeg using Guid(f94770f08d07fa846a4a36ae6c598705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b46e6e7dc9f741ca24ee24ea4f1665') in 0.006334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/textures/45532916-dark-wood-seamless-texture-or-background.jpeg
+  artifactKey: Guid(715bc5f47e70ac24389ee4136975d0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/textures/45532916-dark-wood-seamless-texture-or-background.jpeg using Guid(715bc5f47e70ac24389ee4136975d0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aae26a50cc2c9bea53b540d1126d392') in 0.005941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/textures/rooftiles3.png
+  artifactKey: Guid(11c03b4a2a0458f46b668341852af562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/textures/rooftiles3.png using Guid(11c03b4a2a0458f46b668341852af562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2427c2aef08949873c6c357851c9d2c9') in 0.014139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/tiny-cabin-fantasy-textured-for-challenge/textures/Vol_42_1_Base_Color.png
+  artifactKey: Guid(603e886e192bf8047bb7b246db488748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiny-cabin-fantasy-textured-for-challenge/textures/Vol_42_1_Base_Color.png using Guid(603e886e192bf8047bb7b246db488748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f0e83f88224ac2eccfa456c717f3ba') in 0.005576 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

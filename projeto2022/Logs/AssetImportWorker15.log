@@ -1,0 +1,358 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'pt' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+D:/faculdade/2021_22/aav/github/projeto/projeto2022
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+50927
+Successfully changed project path to: D:/faculdade/2021_22/aav/github/projeto/projeto2022
+D:/faculdade/2021_22/aav/github/projeto/projeto2022
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 69.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/faculdade/2021_22/aav/github/projeto/projeto2022/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004026 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (470ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (333ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (68ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002343 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\github\projeto\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\github\projeto\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (158ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (112.7 KB). Loaded Objects now: 3709.
+Memory consumption went from 126.4 MB to 126.3 MB.
+Total: 3.822100 ms (FindLiveObjects: 0.374100 ms CreateObjectMapping: 0.161100 ms MarkObjects: 3.154500 ms  DeleteObjects: 0.131200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44419.485652 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art
+  artifactKey: Guid(6cbe3bab6895833408133894dd3b5866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art using Guid(6cbe3bab6895833408133894dd3b5866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2964453a5ee611b49465b9058d4500') in 0.005455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.694950 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials
+  artifactKey: Guid(8701f89b0cee93b4c8efcc26c979f188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials using Guid(8701f89b0cee93b4c8efcc26c979f188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1873bedb68d4d49e534d435c059f717') in 0.000929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085666 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials/BridgeHanging.mat
+  artifactKey: Guid(a5c88f5ceb5dadc4a948359149697782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials/BridgeHanging.mat using Guid(a5c88f5ceb5dadc4a948359149697782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e031c449a7d2151f55d08f7eaefdd92e') in 0.214076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.482175 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Textures
+  artifactKey: Guid(9bb4402da59d43d4391a90cdd1478f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Textures using Guid(9bb4402da59d43d4391a90cdd1478f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f4e07eafaeb417beacd5366a233f7c') in 0.000990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.735005 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Textures/BridgeRockBroken
+  artifactKey: Guid(f9311cbfc007e104e9a6cb7130875019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Textures/BridgeRockBroken using Guid(f9311cbfc007e104e9a6cb7130875019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fa2b07894f6cfdfe7f9d3dcd3b6e59') in 0.000768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087024 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Textures/BridgeRockBroken/bridge_rock_broken_01_AlbedoTransparency.png
+  artifactKey: Guid(a63601eb5aa9e0f459a7a5d924ab2f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Textures/BridgeRockBroken/bridge_rock_broken_01_AlbedoTransparency.png using Guid(a63601eb5aa9e0f459a7a5d924ab2f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295862e40b9660cb65f61e22c3d5d326') in 0.046167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.091796 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Shaders
+  artifactKey: Guid(810a6967df6599e4aadd5126d4fc1cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Shaders using Guid(810a6967df6599e4aadd5126d4fc1cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e5d4d4041eb6b880ebd698e3dead11') in 0.000933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.337961 seconds.
+  path: Assets/MaximeBrunoni
+  artifactKey: Guid(e31e15c3201723849873dd8067da2c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MaximeBrunoni using Guid(e31e15c3201723849873dd8067da2c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21df685d634af9112c2885d6f61b3a94') in 0.000793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.647798 seconds.
+  path: Assets/forest/objects/Stylized Well
+  artifactKey: Guid(4d283d1ed0e25f145a9f9528568169b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/Stylized Well using Guid(4d283d1ed0e25f145a9f9528568169b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af52e89657a71671edad960640b87be') in 0.000908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.523803 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack
+  artifactKey: Guid(bd209b101dba2c347aa92e5e900fc8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack using Guid(bd209b101dba2c347aa92e5e900fc8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea66894804dc0c222af0059e01f46b86') in 0.000708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.831696 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo
+  artifactKey: Guid(2e051a1487968e047aa4f35de9cbff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo using Guid(2e051a1487968e047aa4f35de9cbff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35d7405de049ab7b87cb638ef291a55') in 0.000983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.851629 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo/Scene
+  artifactKey: Guid(a9a56264344e0df48a16383a60607cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo/Scene using Guid(a9a56264344e0df48a16383a60607cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b13f0b8e6a7629eaf2f82384a362b6') in 0.000922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.635583 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo/Scene/DemoScene_BridgesPack.unity
+  artifactKey: Guid(87885fbba7363e045bd85c381ac25628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo/Scene/DemoScene_BridgesPack.unity using Guid(87885fbba7363e045bd85c381ac25628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7388e4c8235d1a84d80ed6c400d58203') in 0.000918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.013538 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo/PostProcessProfile
+  artifactKey: Guid(4f4520600ce7d2c4092ad5e6823fcc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo/PostProcessProfile using Guid(4f4520600ce7d2c4092ad5e6823fcc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5116c371b29c85a25b52a9510d8adc91') in 0.001358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.281748 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo/PostProcessProfile/DemoSceneProfile.asset
+  artifactKey: Guid(98fd5976c898b0a4498f558e990986ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Demo/PostProcessProfile/DemoSceneProfile.asset using Guid(98fd5976c898b0a4498f558e990986ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d935c36fb624ec8dcf04d31c69436e') in 0.003500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.749812 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes
+  artifactKey: Guid(023dce41f934cc04da7eeaa20e10e421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes using Guid(023dce41f934cc04da7eeaa20e10e421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442ec53901012912c3923d575076c1c4') in 0.000815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068839 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeHanging.fbx
+  artifactKey: Guid(90e6e3e05613b6942979075cfaf65038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeHanging.fbx using Guid(90e6e3e05613b6942979075cfaf65038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e7d0a26acd50ccbae9c3a4dab7fc15') in 0.075395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes/Well.fbx
+  artifactKey: Guid(a552b77647ed64149a53b1c211d3e075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes/Well.fbx using Guid(a552b77647ed64149a53b1c211d3e075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d15d0d403f3e99b9cba1c3fdde2911b') in 0.017531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRockBroken.fbx
+  artifactKey: Guid(2b39041fe0bd9a74f83447d7fcc06e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRockBroken.fbx using Guid(2b39041fe0bd9a74f83447d7fcc06e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa9724f2593c97825121d234ce38885') in 0.034350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRock.fbx
+  artifactKey: Guid(adf81115af100254389734482bab2b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRock.fbx using Guid(adf81115af100254389734482bab2b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2514a452e2ebe43c4021135b40c84c') in 0.029913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.330411 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Shaders/Water.shadergraph
+  artifactKey: Guid(5f4434dd1ddfc4745bf916e0e4f4a43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Shaders/Water.shadergraph using Guid(5f4434dd1ddfc4745bf916e0e4f4a43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad098bb3f716e7fea2f44b0da0cd6cfa') in 0.002623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.366192 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Shaders/Movement.shadersubgraph
+  artifactKey: Guid(4218cc36918f5a44f9923e5a3ce390d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Shaders/Movement.shadersubgraph using Guid(4218cc36918f5a44f9923e5a3ce390d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e4bde52a3035b80e4e561ed328005') in 0.002993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.401426 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Shaders/DepthFade.shadersubgraph
+  artifactKey: Guid(6efc5398d555a734f86c6134f4f49743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Shaders/DepthFade.shadersubgraph using Guid(6efc5398d555a734f86c6134f4f49743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365011f9dea4f3a0c84a32356454c051') in 0.001180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.633869 seconds.
+  path: Assets/Scenes/forest.unity
+  artifactKey: Guid(6d5211fe022f57c488c6ee0300c5692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/forest.unity using Guid(6d5211fe022f57c488c6ee0300c5692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea3c1da7ca2c8f4430b5963c05aa9598') in 0.000726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 419.189122 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Documentation
+  artifactKey: Guid(0a23626fc9e0f1e48b1ea86dd10dd3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Documentation using Guid(0a23626fc9e0f1e48b1ea86dd10dd3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb255b2f81f138ca573c5a9a275a8bdc') in 0.000942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 503.553684 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/BridgeHanging.prefab
+  artifactKey: Guid(3ac0c1bd9ddc8c443ae08a6d0b80abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/BridgeHanging.prefab using Guid(3ac0c1bd9ddc8c443ae08a6d0b80abbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ac5fd85f776d9fc548f5f59c0a4627') in 0.256525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/SmallBoat.prefab
+  artifactKey: Guid(a8abf0e5202774e48a51491da557a333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/SmallBoat.prefab using Guid(a8abf0e5202774e48a51491da557a333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06523c6449ce322a8e231b3e51d32a4c') in 0.031631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/BridgePontoons.prefab
+  artifactKey: Guid(89750c696c45dbf4ea5fc352ddb69ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/BridgePontoons.prefab using Guid(89750c696c45dbf4ea5fc352ddb69ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8523c439723defcbbb7202a761a4eb') in 0.027838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/Tree.prefab
+  artifactKey: Guid(573c113741e3d4f428d78dbe6ed5a13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/Tree.prefab using Guid(573c113741e3d4f428d78dbe6ed5a13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f134527adf18ccac70ea3cfac2d5303b') in 0.036583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/Socle.prefab
+  artifactKey: Guid(abe33e2d4d152ff4e8348058148d7a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/Socle.prefab using Guid(abe33e2d4d152ff4e8348058148d7a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f28014c79774e1d6a7adf32a6af4c5f') in 0.010351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/Pedestal.prefab
+  artifactKey: Guid(627cc11a2a7d3dc46a52c576e188b880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/Pedestal.prefab using Guid(627cc11a2a7d3dc46a52c576e188b880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb6516b558b36a4870cc9caf75a52fb') in 0.010165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/SmallBoats.prefab
+  artifactKey: Guid(e0df267cc1aa8f44d9cdd98e662e0721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/SmallBoats.prefab using Guid(e0df267cc1aa8f44d9cdd98e662e0721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d0d26da5e8e69b5220ea52c97e3e40') in 0.033209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/BridgeRock.prefab
+  artifactKey: Guid(4eead59d2ca69554e9356d924e52cd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Prefabs/BridgeRock.prefab using Guid(4eead59d2ca69554e9356d924e52cd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90922d8fcd79116cccb383e88159762f') in 0.036197 seconds 
