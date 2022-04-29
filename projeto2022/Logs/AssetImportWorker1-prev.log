@@ -15,7 +15,7 @@ D:/faculdade/2021_22/aav/github/projeto/projeto2022
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50612
+51555
 Successfully changed project path to: D:/faculdade/2021_22/aav/github/projeto/projeto2022
 D:/faculdade/2021_22/aav/github/projeto/projeto2022
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/faculdade/2021_22/aav/github/projeto/projeto2022
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 55.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.0f1 (6eacc8284459)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -63,76 +63,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003194 seconds.
+Registered in 0.003078 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.427 seconds
+- Completed reload, in  0.436 seconds
 Domain Reload Profiling:
-	ReloadAssembly (427ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (437ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (306ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (313ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (64ms)
+			SetupTypeCache (63ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (191ms)
+			SetupLoadedEditorAssemblies (199ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
+				RefreshPlugins (63ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002070 seconds.
+Registered in 0.002279 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\github\projeto\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\faculdade\2021_22\aav\github\projeto\projeto2022\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
+- Completed reload, in  0.643 seconds
 Domain Reload Profiling:
-	ReloadAssembly (795ms)
+	ReloadAssembly (644ms)
 		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (647ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (235ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -140,13 +140,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3226 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (113.2 KB). Loaded Objects now: 3704.
-Memory consumption went from 125.4 MB to 125.3 MB.
-Total: 3.560700 ms (FindLiveObjects: 0.236400 ms CreateObjectMapping: 0.128900 ms MarkObjects: 3.040700 ms  DeleteObjects: 0.154000 ms)
+Unloading 3249 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (114.1 KB). Loaded Objects now: 3735.
+Memory consumption went from 190.9 MB to 190.8 MB.
+Total: 2.571900 ms (FindLiveObjects: 0.216400 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.193700 ms  DeleteObjects: 0.082900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,13 +160,233 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 37189.820627 seconds.
-  path: Assets/characters
-  artifactKey: Guid(988b84bcc23314c4ba075abd7ee31b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/characters using Guid(988b84bcc23314c4ba075abd7ee31b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23963ee7c9e20ad04a92010c0dd65756') in 0.006106 seconds 
+  Time since last request: 131550.572461 seconds.
+  path: Assets/forest/nature/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants/PT_Grass_02.prefab
+  artifactKey: Guid(82b2c64f4e2d5264bbf0f909cadda2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/nature/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants/PT_Grass_02.prefab using Guid(82b2c64f4e2d5264bbf0f909cadda2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581587b5f8a54b3077222717fdb36cea') in 0.081215 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 640.917250 seconds.
-  path: Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene.blend
-  artifactKey: Guid(1943e86d9e3e9cf44a7205a7934f5310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/forest/buildings/modular-lowpoly-medieval-environment/source/MediEval Scene.blend using Guid(1943e86d9e3e9cf44a7205a7934f5310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c53c3522b9b505ef8bbf9a22624155') in 0.640491 seconds 
+  Time since last request: 721.880704 seconds.
+  path: Assets/forest/nature/Stylized Mushroom/MushRoom2.tga
+  artifactKey: Guid(22fa206fa7813a041a12b281cfaee6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/nature/Stylized Mushroom/MushRoom2.tga using Guid(22fa206fa7813a041a12b281cfaee6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd98d029a812fad9569e0116312396b0') in 0.016380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/forest/nature/Stylized Mushroom/mushroom_All3.obj
+  artifactKey: Guid(19750d5bac51de747bf2425c4f3a98db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/nature/Stylized Mushroom/mushroom_All3.obj using Guid(19750d5bac51de747bf2425c4f3a98db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56768e322733de0e600861323d0aa81d') in 0.030785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.066680 seconds.
+  path: Assets/forest/nature/Stylized Mushroom/Prefab/mushroom_All3.prefab
+  artifactKey: Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/nature/Stylized Mushroom/Prefab/mushroom_All3.prefab using Guid(a1d761911149f7845aac6ec33c36f40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42bdacb7a42e2ed864ffbeeb71b2784b') in 0.141487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 476.958921 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_11_morning_a.png
+  artifactKey: Guid(c1473a09822798a41a9cfa11f2721db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_11_morning_a.png using Guid(c1473a09822798a41a9cfa11f2721db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c757882eaa5bf0eaa9f6078fc3b7840e') in 0.606871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png
+  artifactKey: Guid(b4503954fd147c94180872808dde9eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png using Guid(b4503954fd147c94180872808dde9eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00e02d88fe7779a270e1fa71ec16565') in 0.067130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png
+  artifactKey: Guid(b15764350a2285e49a165af927da5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png using Guid(b15764350a2285e49a165af927da5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74d59277b8a23293fe65f49750ec8f3') in 0.058147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.599418 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_11_morning_a.mat
+  artifactKey: Guid(3f698c5d47507d54db2dcb930054532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_11_morning_a.mat using Guid(3f698c5d47507d54db2dcb930054532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e68cc820c2268e580fd5d4a816fa5ae') in 0.307869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat
+  artifactKey: Guid(aa87107d0c3535c4983a4edb2d0e9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat using Guid(aa87107d0c3535c4983a4edb2d0e9f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e6cca4f810484e971253537b2c3233') in 0.094906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.602941 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png
+  artifactKey: Guid(7aec8516610b2ff4abcdda8106713279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png using Guid(7aec8516610b2ff4abcdda8106713279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be9a6c00244c8acf85e1dbf27f24570') in 0.130679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.812564 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat
+  artifactKey: Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat using Guid(8162517b6ec2309499f99e303b29f146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93341fe766c495f23de069d80b5b9ad') in 0.525379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat
+  artifactKey: Guid(c1c961cbd00909b45b34d97fd7df5cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat using Guid(c1c961cbd00909b45b34d97fd7df5cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c142e0ea65a86347830a57513d90eac') in 0.075046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat
+  artifactKey: Guid(b2f1a98efccfb644f8e084200a249527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat using Guid(b2f1a98efccfb644f8e084200a249527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b306d86c74a4542738a139ff2921cc') in 0.075491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat
+  artifactKey: Guid(133347283e115d147a5fcce7f47a538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat using Guid(133347283e115d147a5fcce7f47a538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b467ee45bc66d2c224d7e2e85097f94e') in 0.073772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.274172 seconds.
+  path: Assets/Stylized Water For URP/Demos/Water/Black.mat
+  artifactKey: Guid(fa72cc8cda47e9f4f8add63b13b5b9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Demos/Water/Black.mat using Guid(fa72cc8cda47e9f4f8add63b13b5b9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ba3a6f61240d352523c1fe3a4583bf') in 0.014375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 01 Blonde.mat
+  artifactKey: Guid(48a029539a0235b4e93cc5a1cf7215bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 01 Blonde.mat using Guid(48a029539a0235b4e93cc5a1cf7215bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8a76c885b39007fce65a70b66c11eb') in 0.011107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials/BridgeRock.mat
+  artifactKey: Guid(79b5a41ba1c9863448cbe9236ba976e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials/BridgeRock.mat using Guid(79b5a41ba1c9863448cbe9236ba976e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ead04a1ad4284a1b98fbae736a942d') in 0.172587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 02 Orange.mat
+  artifactKey: Guid(19d465d719e40c248a7f7db6ec1735f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 02 Orange.mat using Guid(19d465d719e40c248a7f7db6ec1735f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99fd771ee54a8f59492443ed3e14e86d') in 0.047637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 03 Brown.mat
+  artifactKey: Guid(e9b6259bb14bcf344b8454a02b46aacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 03 Brown.mat using Guid(e9b6259bb14bcf344b8454a02b46aacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b33f7ce93f19492fb52cd2e9c95aef') in 0.005989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 02 Grey.mat
+  artifactKey: Guid(565f8aff7f5bc574fa5c8c9c30a4f244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 02 Grey.mat using Guid(565f8aff7f5bc574fa5c8c9c30a4f244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd754256eb4f83190eb20b2c247066c25') in 0.005843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 02 Brown.mat
+  artifactKey: Guid(7ffd11f467c77b14d98a2c8c1d3c63f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 02 Brown.mat using Guid(7ffd11f467c77b14d98a2c8c1d3c63f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b01e41c11389b6bdc706d2c17eb2dc') in 0.006843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.879429 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 03 Orange.mat
+  artifactKey: Guid(aaac623d0a52a8d49a5e180e02601d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Face Female 03 Orange.mat using Guid(aaac623d0a52a8d49a5e180e02601d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca58cc2773da3dc2384859397c84cd4') in 0.006666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Stylized Water For URP/Demos/Water/Floor.mat
+  artifactKey: Guid(f2f7436c3cd39404e9ea1b0b9962707d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Demos/Water/Floor.mat using Guid(f2f7436c3cd39404e9ea1b0b9962707d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3b28866711ebdba9ee647f8e573e9a') in 0.017265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015072 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Cute series demo assets/Ground.mat
+  artifactKey: Guid(f37ea2bd19136a2469ed0e0758f4ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Cute series demo assets/Ground.mat using Guid(f37ea2bd19136a2469ed0e0758f4ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2639b0f7c2025c0225b3393b3bc1e3') in 0.006002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Hair Blonde.mat
+  artifactKey: Guid(92ada1a6b0e61b64ab62a9bf49fd9787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Hair Blonde.mat using Guid(92ada1a6b0e61b64ab62a9bf49fd9787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03efafb912ea5a4c7fa49723633fc249') in 0.007476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036267 seconds.
+  path: Assets/forest/nature/IL3DN/Graphics/Materials/IL3DN_FX_Glow.mat
+  artifactKey: Guid(2519c1f835cf63c45a81f4aac87488c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/nature/IL3DN/Graphics/Materials/IL3DN_FX_Glow.mat using Guid(2519c1f835cf63c45a81f4aac87488c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbf22e7c5239b72088614ca4b0e0ba5') in 0.008946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/forest/nature/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_01.mat
+  artifactKey: Guid(67e642841af2acc4492399d0ff294789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/nature/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_01.mat using Guid(67e642841af2acc4492399d0ff294789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a025160e6a5baa6c501f73121d3f12') in 0.008097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/forest/nature/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_03.mat
+  artifactKey: Guid(a1caf223de02ae34384ec42b6f035826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/nature/IL3DN/Graphics/Materials/IL3DN_Plant_Grass_03.mat using Guid(a1caf223de02ae34384ec42b6f035826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07867de9552c93e3acb9cb9eb7ce6bc6') in 0.007536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.605866 seconds.
+  path: Assets/forest/objects/Stylized Well/Well/Materials/Material_plith.mat
+  artifactKey: Guid(428589479cbe8644c9dbceda3497c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/Stylized Well/Well/Materials/Material_plith.mat using Guid(428589479cbe8644c9dbceda3497c131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c61f2dd083b7e2ac08efa70854d8472') in 0.011302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017610 seconds.
+  path: Assets/forest/nature/Stylized Mushroom/Materials/MushRoom3.mat
+  artifactKey: Guid(42931dbfc018339448e37d7c7dfc35dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/nature/Stylized Mushroom/Materials/MushRoom3.mat using Guid(42931dbfc018339448e37d7c7dfc35dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e33a32e48b9d00c2dd1fe744244e62') in 0.011336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Stylized Water For URP/Materials/Ocean.mat
+  artifactKey: Guid(d337fc5282607644ebb2f3575513265e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Materials/Ocean.mat using Guid(d337fc5282607644ebb2f3575513265e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ad8caf7769ab234514bf9e38eb66b7') in 0.017977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/characters/enemies/RPG Monster Wave PBR/Materials/PBRMaskTint03.mat
+  artifactKey: Guid(ea05a000b2e8594469f5a6a7ae4e01a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/enemies/RPG Monster Wave PBR/Materials/PBRMaskTint03.mat using Guid(ea05a000b2e8594469f5a6a7ae4e01a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7ada1b30f385433ccf80a184813824') in 0.012735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/characters/enemies/RPG Monster Wave PBR/Materials/PBRMaskTint02.mat
+  artifactKey: Guid(c932271491e32294cb6db9b7af6518bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/enemies/RPG Monster Wave PBR/Materials/PBRMaskTint02.mat using Guid(c932271491e32294cb6db9b7af6518bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2381a9e9755d47561b98d130c4ac379') in 0.011142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Stylized Water For URP/Meshes/Hexagonal Plane.fbx
+  artifactKey: Guid(3a3d08dbcecd2834e906f945a31ac7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Meshes/Hexagonal Plane.fbx using Guid(3a3d08dbcecd2834e906f945a31ac7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b838b362601ecce612c85c37517fcb80') in 0.013787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.890664 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials/SmallBoat.mat
+  artifactKey: Guid(2327382c718d24b44b82b99ae00d67cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials/SmallBoat.mat using Guid(2327382c718d24b44b82b99ae00d67cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adda9a6a462201da025d49db198aede4') in 0.034723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials/TreeTrunk.mat
+  artifactKey: Guid(4ba7101b7a6bbc94c814c8016f24bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest/objects/MaximeBrunoni/BridgesPack/Art/Materials/TreeTrunk.mat using Guid(4ba7101b7a6bbc94c814c8016f24bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910d82c067a5f008b4dbc273ae480912') in 0.035774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Dark.mat
+  artifactKey: Guid(50b4776da7db7c14793a1253d54c3ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/characters/hero/Female Mage Pack 01 Cute Series/Standard Assets Files/Materials/Tan Dark.mat using Guid(50b4776da7db7c14793a1253d54c3ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ffc6a1930f6e03e04f47af82ec9a48') in 0.013019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Stylized Water For URP/Materials/Wavy.mat
+  artifactKey: Guid(55017f1a01259744a8e40a41b5c5920d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Water For URP/Materials/Wavy.mat using Guid(55017f1a01259744a8e40a41b5c5920d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f432961a371826a700ea5c708566f8d') in 0.015862 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
