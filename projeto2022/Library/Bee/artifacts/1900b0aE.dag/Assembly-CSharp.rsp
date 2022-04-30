@@ -352,6 +352,7 @@
 "Assets/forest/nature/IL3DN/Scripts/IL3DN_Wind.cs"
 "Assets/forest/nature/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/MouseLook.cs"
 "Assets/forest/nature/Polytope Studio/Lowpoly Medieval Demos/Environment_Free/PlayerMovement.cs"
+"Assets/mouseController.cs"
 -langversion:9.0
 
 /deterministic
